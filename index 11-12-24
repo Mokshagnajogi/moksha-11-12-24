@@ -1,0 +1,53 @@
+<html>
+<head>
+<title></title>
+<style>
+button{
+font-family:cursive;
+border:none;
+font-size:30px;
+padding:15px 15px;
+margin:10px;
+border-radius:5px;
+transition-duration:5s;
+} 
+ 
+#button1{
+background-color:#beb2f7;
+color:#7e9acc;
+border:2px solid#e3b5a8;
+box-shadow:5px 5px 4px#bbe3a8;
+}
+
+#button2{
+background-color:rgb(216, 111, 242);
+color:rgb(78, 121, 199);
+border:2px solid #460e54;
+box-shadow:5px 5px 4px #801d71;
+}
+
+#button1:hover{
+background-color:#8f1b46;
+color:#330918;
+box-shadow:5px 5px 2px #800430 ;
+cursor:pointer;
+}
+
+
+#button2:hover{
+background-color: #115b5c;
+color:#02374a;
+box-shadow:5px 5px 2px #024e4f ;
+cursor:pointer;
+}
+
+
+
+</style>
+</head>
+<body>
+<button id="button1">VIRAT</buton>
+<button id="button2" >KOHLI </button>
+
+</body>
+</html>
